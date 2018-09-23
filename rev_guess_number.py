@@ -2,7 +2,7 @@ from time import sleep
 
 
 def rev_guess_number():
-    print("Pomyśl liczbę od 0 do 1000, a ja ją zgadnę w maximum. 10 próbach")
+    print("Pomyśl liczbę od 0 do 1000, a ja ją zgadnę w max. 10 próbach")
     sleep(3)
     minimum = 0
     maximum = 1000
