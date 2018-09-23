@@ -1,7 +1,7 @@
 from time import sleep
 
 
-def try_2_cheat():
+def rev_guess_number():
     print("Pomyśl liczbę od 0 do 1000, a ja ją zgadnę w maximum. 10 próbach")
     sleep(3)
     minimum = 0
@@ -27,4 +27,4 @@ def try_2_cheat():
             print("Nie oszukuj!")
 
 
-try_2_cheat()
+rev_guess_number()
