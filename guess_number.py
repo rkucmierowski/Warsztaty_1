@@ -16,8 +16,14 @@ def guess_number():
         elif number > rand:
             print("Za dużo!")
         else:
-            print("Zgadłeś")
+            print("Zgadłeś!")
             flag = False
-
+            while True:
+                once_again = input("Czy chcesz zagrać jeszcze raz (T/N)?")
+                if once_again in ('T', 't'):
+                    guess_number()
+                    break
+                elif once_again in ('N', 'n'):
+                    return False
 
 guess_number()
